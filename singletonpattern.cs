@@ -1,7 +1,5 @@
 using System;
 
-namespace SingletonPattern
-{
     public class President
     {
         static President instance;
@@ -32,4 +30,4 @@ namespace SingletonPattern
             Console.ReadLine();
         }
     }
-}
+
